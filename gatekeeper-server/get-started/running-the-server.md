@@ -1,6 +1,6 @@
 # Running Gatekeeper
 
-Start the web server by running:
+Start the web server by executing:
 
 ```bash
 cd Server/ && dotnet watch run
