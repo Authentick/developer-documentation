@@ -1,2 +1,0 @@
-# GRPC services
-
