@@ -1,3 +1,7 @@
+---
+description: Learn how the server and client communicate.
+---
+
 # Client &lt;-&gt; Server communication
 
 The client and server primarily communicate using gRPC. Adding or adjusting a service is defined in our server development documentation:

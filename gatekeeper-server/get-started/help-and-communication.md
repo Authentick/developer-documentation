@@ -1,8 +1,6 @@
----
-description: "If you like to communicate with other developers or have any questions, please do not hesitate to reach out. We're happy to help \U0001F603"
----
-
 # Help and communication
+
+If you like to communicate with other developers or have any questions, please do not hesitate to reach out. We're happy to help 😃
 
 ## Chat
 

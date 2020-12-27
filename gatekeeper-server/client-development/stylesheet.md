@@ -1,3 +1,7 @@
+---
+description: Learn how to do design changes.
+---
+
 # Stylesheet
 
 The SCSS code is located inside the `Client/Assets/CSS` folder. 
