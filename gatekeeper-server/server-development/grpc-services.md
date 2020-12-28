@@ -23,6 +23,8 @@ The ASP.NET Core documentation offers a good introduction:
 Make sure to use the VS Code auto-completion to implement all overrides. This will save you quite some time.
 {% endhint %}
 
+![](../../.gitbook/assets/vscode-override-screenshot.png)
+
 ## Client changes
 
 Upon definition of the service in the server, you need to register the gRPC client in the Gatekeeper Client. This is done in [`Client/Program.cs`](https://github.com/GetGatekeeper/Server/blob/cae622e8b4a9bab505f575c974924eb06dbec648/Client/Program.cs#L23-L33), below you see some clients being registered:
