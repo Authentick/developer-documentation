@@ -22,5 +22,8 @@
     * [Writing visual tests](gatekeeper-server/tests/writing-tests/writing-visual-tests.md)
     * [Writing integration tests](gatekeeper-server/tests/writing-tests/writing-integration-tests.md)
     * [Writing unit tests](gatekeeper-server/tests/writing-tests/writing-unit-tests.md)
-* [Licenses for contributors](gatekeeper-server/licenses-for-contributors.md)
+
+---
+
+* [Licenses for contributors](licenses-for-contributors.md)
 
