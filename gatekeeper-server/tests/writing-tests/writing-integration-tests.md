@@ -37,7 +37,7 @@ using Grpc.Core.Utils;
 using Moq;
 using Xunit;
 
-namespace AuthServer.Server.Tests.GRPC
+namespace Gatekeeper.Server.Web.Tests.GRPC
 {
     public class TypeaheadServiceTest : IClassFixture<SharedDatabaseFixture>
     {

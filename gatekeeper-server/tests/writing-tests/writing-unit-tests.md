@@ -18,7 +18,7 @@ The following test would check for a positive \(`Assert.True`\) and a negative \
 using AuthServer.Server.Services.Crypto;
 using Xunit;
 
-namespace AuthServer.Server.Tests.Services.Crypto
+namespace Gatekeeper.Server.Web.Tests.Services.Crypto
 {
     public class HasherTest
     {

@@ -3,7 +3,7 @@
 Start the web server by executing:
 
 ```bash
-cd Server/ && dotnet watch run
+cd Gatekeeper.Server.Web/ && dotnet watch run
 ```
 
 This will start the web server accessible at port 80.

@@ -13,7 +13,7 @@ The Gatekeeper server and client communicate using gRPC. To add a new service, y
 
 ## Server changes
 
-The definitions are stored in the [`Shared/Protos/`](https://github.com/GetGatekeeper/Server/tree/main/Shared/Protos) folder. Either extend an existing file, or create a new one.
+The definitions are stored in the [`Gatekeeper.Shared.ClientAndWeb/Protos/`](https://github.com/GetGatekeeper/Server/tree/main/Gatekeeper.Shared.ClientAndWeb/Protos) folder. Either extend an existing file, or create a new one.
 
 The ASP.NET Core documentation offers a good introduction:
 
