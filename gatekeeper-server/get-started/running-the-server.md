@@ -1,4 +1,4 @@
-# Running Gatekeeper
+# Running Authentick
 
 Start the web server by executing:
 

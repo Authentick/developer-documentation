@@ -4,7 +4,7 @@ description: Learn how to add new endpoints or RPC calls to the server.
 
 # gRPC services
 
-The Gatekeeper server and client communicate using gRPC. To add a new service, you have to follow a few steps:
+The Authentick server and client communicate using gRPC. To add a new service, you have to follow a few steps:
 
 1. Create the protocol buffer \(`.proto`\) file if there is not already one.
 2. Register the `.proto` file
@@ -27,7 +27,7 @@ Make sure to use the VS Code auto-completion to implement all overrides. This wi
 
 ## Client changes
 
-Upon definition of the service in the server, you need to register the gRPC client in the Gatekeeper Client. This is done in [`Client/Program.cs`](https://github.com/GetGatekeeper/Server/blob/cae622e8b4a9bab505f575c974924eb06dbec648/Client/Program.cs#L23-L33), below you see some clients being registered:
+Upon definition of the service in the server, you need to register the gRPC client in the Authentick Client. This is done in [`Client/Program.cs`](https://github.com/GetGatekeeper/Server/blob/cae622e8b4a9bab505f575c974924eb06dbec648/Client/Program.cs#L23-L33), below you see some clients being registered:
 
 ```csharp
 namespace AuthServer.Client
@@ -53,7 +53,7 @@ namespace AuthServer.Client
             builder.Services.AddScoped(services => { return new AuthServer.Shared.OIDCUserService.OIDCUserServiceClient(GetGrpcChannel(services)); });
 ```
 
-Upon registration you can inject the client in your Razor files, and use it \([example](https://github.com/GetGatekeeper/Server/blob/cae622e8b4a9bab505f575c974924eb06dbec648/Client/Pages/Apps/AppsDetails.razor)\):
+Upon registration you can inject the client in your Razor files, and use it \([example](https://github.com/Authentick/Server/blob/cae622e8b4a9bab505f575c974924eb06dbec648/Client/Pages/Apps/AppsDetails.razor)\):
 
 ```csharp
 @page "/apps/details/{Id:guid}"

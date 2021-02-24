@@ -4,7 +4,7 @@ description: Learn how to interact with the database.
 
 # Database
 
-Gatekeeper uses Entity Framework Core to interact with all data. The tutorial provided by Microsoft provides a lot of references:
+Authentick uses Entity Framework Core to interact with all data. The tutorial provided by Microsoft provides a lot of references:
 
 {% embed url="https://docs.microsoft.com/en-us/ef/core/" %}
 
@@ -23,9 +23,9 @@ To use Adminer, open your web browser and connect to port 8080 of your developme
 * **User:** postgres
 * **Password:** example
 
-The database that contains the Gatekeeper data is called "db".
+The database that contains the Authentick data is called "db".
 
-![Using Adminer to access the Gatekeeper Database.](../../.gitbook/assets/using-adminer-to-access-the-gatekeeper-database.png)
+![Using Adminer to access the Authentick Database.](../../.gitbook/assets/using-adminer-to-access-the-gatekeeper-database.png)
 
 
 

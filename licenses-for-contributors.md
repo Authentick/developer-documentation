@@ -1,14 +1,14 @@
 # Licenses for contributors
 
 {% hint style="info" %}
-These licenses are aimed for regular contributors to Gatekeeper and should only be used for developing software within the Gatekeeper project.
+These licenses are aimed for regular contributors to Authentick and should only be used for developing software within the Authentick project.
 
 If you believe you qualify, reach out to "LukasReschke" in our [community chat](https://getgatekeeper.zulipchat.com/).
 {% endhint %}
 
 ## BrowserStack
 
-BrowserStack has granted us free licenses under their [open source program](https://www.browserstack.com/open-source). It's a great tool to test Gatekeeper on different browsers and mobile devices.
+BrowserStack has granted us free licenses under their [open source program](https://www.browserstack.com/open-source). It's a great tool to test Authentick on different browsers and mobile devices.
 
 {% embed url="https://www.browserstack.com/live" %}
 

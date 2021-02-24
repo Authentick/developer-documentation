@@ -1,6 +1,6 @@
 # Used technologies
 
-Gatekeeper is built on top of other technologies. Whilst much of it should be self-explaining when reading the code, here is further documentation.
+Authentick is built on top of other technologies. Whilst much of it should be self-explaining when reading the code, here is further documentation.
 
 ## Frontend
 

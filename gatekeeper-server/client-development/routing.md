@@ -1,5 +1,5 @@
 ---
-description: Learn how to add new routes to Gatekeeper.
+description: Learn how to add new routes to Authentick.
 ---
 
 # Routing
